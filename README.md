@@ -1,13 +1,5 @@
 # puzzle-star
 
-Solve n-puzzle game with A* algorithm.
+Solving n-puzzle game with A* algorithm. I wrote this to defeat my daughter.
 
-## demo
-
-https://myst729.github.io/puzzle-star
-## references
-
-- https://en.wikipedia.org/wiki/15_puzzle
-- https://www.ituring.com.cn/book/1052
-- https://en.wikipedia.org/wiki/A*_search_algorithm
-- https://myst729.github.io/posts/2014/a-star-pathfinding/
+https://user-images.githubusercontent.com/519733/206962611-05b3b3ac-63f6-45f1-abf6-8edbd1ec442a.mp4

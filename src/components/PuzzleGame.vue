@@ -23,6 +23,7 @@
     </div>
     <audio ref="block" src="../assets/pooh.mp3"></audio>
     <audio ref="move" src="../assets/phew.mp3"></audio>
+    <audio ref="win" src="../assets/win.mp3"></audio>
   </div>
 </template>
 
@@ -81,6 +82,11 @@ export default {
       }
       if (sound) {
         this.$refs.move.play()
+      }
+      if (this.won) {
+        setTimeout(() => {
+          this.$refs.win.play()
+        }, 500)
       }
     },
     randomMove (count, sound) {
